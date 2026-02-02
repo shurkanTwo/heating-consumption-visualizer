@@ -44,11 +44,19 @@ For **2023**:
 
 ## Usage
 
-Install and activate venv (git bash under Windows)
+Install and activate venv (git bash under Windows):
 
 ```bash
 python3 -m venv .venv
 source .venv/Scripts/activate
+pip install -r requirements.txt
+```
+
+Install and activate venv (shell under Linux):
+
+```bash
+python3 -m venv .venv
+source ./.venv/bin/activate
 pip install -r requirements.txt
 ```
 
